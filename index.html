@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>F1 Race Schedule Viewer</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1>F1 Race Schedule Viewer</h1>
+    <input type="text" id="yearInput" placeholder="Enter a year">
+    <button id="fetchSchedule">Get Schedule</button>
+
+    <div id="infoContainer">
+        <p id="seriesInfo"></p>
+        <p id="seasonInfo"></p>
+        <p id="totalResultsInfo"></p>
+    </div>
+    <div id="scheduleContainer">
+        <table id="raceSchedule">
+            <thead>
+                <tr>
+                    <th>Season</th>
+                    <th>Round</th>
+                    <th>Race Name</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Country</th>
+                    <th>URL</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
